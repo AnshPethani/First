@@ -1,0 +1,47 @@
+body {
+    background-color: teal;
+}
+*{
+    box-sizing: border-box;
+}
+.container {
+    margin: auto;
+    width: 500px;
+    padding: 15px;
+    background-color: lightsteelblue;
+    box-shadow: 20px 20px 20px 0px rgba(0,0,0,0.6);
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0px 22px 0px;
+    display: inline-block;
+    border: none;
+    background-color: whitesmoke;
+
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='password']:focus {
+    background-color: white;
+    outline: none;   
+}
+
+.registerbtn {
+    background-color: teal;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: auto;
+    opacity: 0.8;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
